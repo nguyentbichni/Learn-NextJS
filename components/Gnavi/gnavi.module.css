@@ -1,0 +1,65 @@
+/* gnavi
+================================================== */
+
+.gnavi {
+    color: inherit;
+    clear: both;
+}
+
+.gnavi ul {
+    list-style: none;
+}
+
+.gnavi li {
+    width: 120px;
+    float: left;
+}
+
+.gnavi .active a,
+.gnavi a:hover,
+.gnavi a:focus {
+    text-decoration: underline;
+}
+
+.tmp_gnavi {
+    position: relative;
+    color: inherit;
+    clear: both;
+    background-color: #444444;
+    color: #ffffff;
+    border-bottom: 2px solid #ffffff;
+    font-weight: 500;
+}
+
+.gnavi ul {
+    list-style: none;
+}
+
+.gnavi ul li {
+    width: 14.28%;
+    float: left;
+}
+
+.gnavi a {
+    position: relative;
+    display: block;
+    text-align: center;
+    font-size: 105%;
+    padding: 22px 5px 19px;
+    text-decoration: none;
+    background-color: transparent;
+    color: #ffffff;
+    border: 3px solid transparent;
+}
+
+.gnavi a:after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 1px;
+    height: auto;
+    right: -4px;
+    top: 21px;
+    bottom: 16px;
+    background-color: #c6c6c6;
+}

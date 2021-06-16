@@ -1,0 +1,129 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+.tmp_wrapper *,
+.tmp_wrapper *:before,
+.tmp_wrapper *:after {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li,
+dl,
+dt,
+dd,
+blockquote,
+form,
+input,
+fieldset,
+legend {
+    margin: 0;
+    padding: 0;
+}
+
+img,
+fieldset {
+    border: none;
+}
+
+li,
+dt,
+dd {
+    line-height: 1.4;
+}
+
+table {
+    font-size: 100%;
+    line-height: 1.6;
+    word-break: break-all;
+}
+
+form,
+input,
+select,
+textarea {
+    font-size: 100%;
+}
+body,
+input,
+select,
+textarea {
+    font-family: "游ゴシック", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
+}
+
+body .tmp_contents p em {
+    font-family: "游ゴシック", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
+    font-size: 105%;
+}
+
+a:link {
+    color: #003377;
+}
+
+body {
+    font-size: 87.5%;
+    font-weight: 500;
+}
+.tmp_main,
+.footer_cnt,
+.copyright {
+    clear: both;
+}
+
+.tmp_main,
+.tmp_contents {
+    width: 100%;
+}
+
+.tmp_hnavi_s,
+.tmp_sma_lmenu,
+.tmp_sma_rmenu {
+    display: none;
+}
+.tmp_wrapper {
+  min-width: 1240px;
+  margin: 0 auto;
+}
+.container:before,
+.container:after {
+    content: '';
+    display: table;
+}
+
+.container:after {
+    clear: both;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
