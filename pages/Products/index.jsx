@@ -16,7 +16,7 @@ function Products (props){
     return(
         <div>
             <Gnavi />
-            <p>Products Page</p>
+            <h1>Products Page</h1>
             {renderProduct()}
         </div>
     )

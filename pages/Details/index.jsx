@@ -5,7 +5,7 @@ function Details (){
     return(
         <>
             <Gnavi/>
-            <p>Detail Page</p>
+            <h1>Detail Page</h1>
         </>
     )
 }
